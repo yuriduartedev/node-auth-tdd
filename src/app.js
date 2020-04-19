@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 
 class AppController {
   constructor() {
@@ -13,8 +13,8 @@ class AppController {
   }
 
   routes() {
-    this.use(require('./server'));
+    this.express.use(require("./routes"));
   }
 }
 
-module.exports = new AppController().express
+module.exports = new AppController().express;

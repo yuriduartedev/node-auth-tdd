@@ -4,7 +4,6 @@ module.exports = {
   password: 'docker',
   database: 'nodeauth',
   dialect: 'postgres',
-  operatorsAliases: false,
   loggin: false,
   define: {
     timestamps: true,

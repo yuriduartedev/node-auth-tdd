@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "test": "jest"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.0.2",
     "sequelize": "^5.21.6"
   },
   "devDependencies": {
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3",
     "sequelize-cli": "^5.5.1"
   }
 }

@@ -1,6 +1,6 @@
-<h1 align="center">
-	🔐Uma API de autenticação utilizando NodeJS, Express, PostgreSQL e Autenticação com JWT.
-</h1>
+<h3 align="center">
+	🔐API de autenticação com NodeJS, Express, PostgreSQL e JWT.
+</h3>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/yuriduarte/node-auth-tdd?color=%2304D361">
 
